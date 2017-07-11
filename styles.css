@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  padding: 16px;
+}
+
+.left {
+  background-color: gray;
+  margin-right: 16px;
+}
+
+.right {
+  background-color: gray;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex-grow: 1;
+}

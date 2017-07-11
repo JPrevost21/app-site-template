@@ -1,0 +1,15 @@
+{
+  "name": "AppSiteTemplate",
+  "version": "1.0.0",
+  "description": "A website template that people can use to showcase their apps.",
+  "scripts": {
+    "start": "grunt"
+  },
+  "author": "Joseph Prevost",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.1.0"
+  }
+}

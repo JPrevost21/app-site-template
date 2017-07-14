@@ -14,7 +14,8 @@ body {
 #container {
     display:flex;
     width: 100%;
-    padding-top: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 #left {
     margin-left: 25%;

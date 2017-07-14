@@ -10,5 +10,8 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.6.0"
+  },
+  "devDependencies": {
+    "gulp-minify": "^1.0.0"
   }
 }

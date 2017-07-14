@@ -7,4 +7,19 @@ gulp.task('minify-css', () => {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('default', ['minify-css']);
+var minify = require('gulp-minify');
+ 
+gulp.task('compress', function() {
+  return gulp.src('src/**/*.js')
+    .pipe(minify({
+        ext:{
+            src:'-debug.js',
+            min:'.js'
+        },
+        exclude: ['tasks'],
+        ignoreFiles: ['.combo.js', '-min.js']
+    }))
+    .pipe(gulp.dest('dist'))
+});
+
+gulp.task('default', ['minify-css', 'compress'],);

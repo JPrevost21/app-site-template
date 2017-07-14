@@ -22,4 +22,14 @@ gulp.task('compress', function() {
     .pipe(gulp.dest('dist'))
 });
 
-gulp.task('default', ['minify-css', 'compress'],);
+gulp.task('copy-img', function () {
+    gulp.src('src/*.html')
+        .pipe(gulp.dest('dist'));
+});
+
+gulp.task('copy-html', function () {
+    gulp.src('src/img/*.*')
+        .pipe(gulp.dest('dist'));
+});
+
+gulp.task('default', ['minify-css', 'compress', 'copy-img', 'copy-html'],);

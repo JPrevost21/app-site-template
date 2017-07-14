@@ -32,4 +32,15 @@ gulp.task('copy-html', function () {
         .pipe(gulp.dest('dist'));
 });
 
-gulp.task('default', ['minify-css', 'compress', 'copy-img', 'copy-html'],);
+const autoprefixer = require('gulp-autoprefixer');
+ 
+gulp.task('autoprefixer', () =>
+    gulp.src('src/**/*.css')
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
+        .pipe(gulp.dest('dist'))
+);
+
+gulp.task('default', ['minify-css', 'compress', 'copy-img', 'copy-html', 'autoprefixer'],);

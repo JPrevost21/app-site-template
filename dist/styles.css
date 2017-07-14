@@ -1,1 +1,44 @@
-body,html{margin:0;padding:0;height:100%;box-sizing:border-box}body{background:linear-gradient(#070000,#4c0001,#070000);display:flex;padding:16px}#container{display:flex;width:100%;padding-top:25%}#left{margin-left:25%;color:#fff;margin-right:16px;width:25%;margin-right:0}#right{display:flex;flex-direction:column;width:25%;margin-left:0}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#070000), color-stop(#4C0001), to(#070000));
+    background: linear-gradient(#070000, #4C0001, #070000); 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    padding: 16px;
+}
+
+#container {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#left {
+    margin-left: 25%;
+    color: white;
+    margin-right: 16px;
+    width: 25%;
+    margin-right: 0px;
+}
+
+#right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 0px;
+}

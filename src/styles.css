@@ -14,13 +14,11 @@ body {
 #container {
     display:flex;
     width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
 }
 #left {
-    margin-left: 25%;
     color: white;
-    margin-right: 16px;
     width: 25%;
     margin-right: 0px;
 }

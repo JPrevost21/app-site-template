@@ -12,6 +12,7 @@
     "gulp-autoprefixer": "^4.0.0",
     "gulp-clean-css": "^3.6.0",
     "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1"
   },
   "devDependencies": {

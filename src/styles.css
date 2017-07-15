@@ -9,6 +9,7 @@ body {
     background: linear-gradient(#070000, #4C0001, #070000); 
     display: flex;
     padding: 16px;
+    flex-direction: column;
 }
 
 #container {
@@ -16,6 +17,7 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
+    flex: 1;
 }
 #left {
     color: white;
@@ -28,4 +30,15 @@ body {
     flex-direction: column;
     width: 25%;
     margin-left: 0px;
+}
+
+.header {
+    height: 10%;
+    display: flex;
+    color: white;
+}
+
+.searchBar {
+    width: 20%;
+    height: 50%;
 }

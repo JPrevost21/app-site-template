@@ -6,10 +6,11 @@ html, body {
 }
 
 body {
-    background: linear-gradient(#070000, #4C0001, #070000); 
+    background: linear-gradient(#D3959B, #BFE6BA); 
     display: flex;
     padding: 16px;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 #container {
@@ -30,4 +31,28 @@ body {
     flex-direction: column;
     width: 25%;
     margin-left: 0px;
+}
+.appStoreButton {
+    width: 100%;
+    height: auto;
+}
+
+.appIcon {
+    width: 100%;
+    height: auto;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D3959B;
+    text-decoration: underline;
 }

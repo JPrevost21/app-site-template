@@ -13,10 +13,10 @@ body {
 }
 
 #container {
-    display:flex;
-    width: 100%;
     align-items: center;
     justify-content: center;
+    display: flex;
+    width: 100%;
     flex: 1;
 }
 #left {
@@ -30,15 +30,4 @@ body {
     flex-direction: column;
     width: 25%;
     margin-left: 0px;
-}
-
-.header {
-    height: 10%;
-    display: flex;
-    color: white;
-}
-
-.searchBar {
-    width: 20%;
-    height: 50%;
 }

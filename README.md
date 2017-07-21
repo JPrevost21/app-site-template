@@ -5,12 +5,10 @@ Use this template as a basis to build your website for your application.
 Change the application image and descriptions to make the website your own.
 
 
-Written in HTML, CSS, Javascript, and Jquery.
+Written in HTML and CSS
 
 # Quick Start
-`npm run build` - Build the entire project to the `dist/` directoy.
-
-`npm run dev` - Builds the project to `dist/` but skips image optimization and JS linting/uglifying for speed.
+`npm start` Builds project dist.
 
 ### Available Gulp tasks:
 - `minify-css` Autoprefixes and minifies css
